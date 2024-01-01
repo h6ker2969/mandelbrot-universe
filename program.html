@@ -1,4 +1,7 @@
-<canvas id="myworld" width="1000" height="1000"></canvas>
+<!DOCTYPE html>
+<html>
+  <body>
+  <canvas id="myworld" width="1000" height="1000"></canvas>
   <script>
   m = document.getElementById("myworld").getContext("2d")
   atom = function(x,y,c){m.fillStyle=c; m.fillRect(x,y,3,3)}
@@ -16,3 +19,5 @@
   if(H){atom(x,y,"rgb("+ t*3 +","+ t +","+ t*0.5 +")"); break}
   }}}
   </script>
+  </body>
+</html>
